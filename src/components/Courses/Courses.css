@@ -1,0 +1,79 @@
+.maindiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lesson, .students, .rating{
+    display: flex;
+    align-items: center;
+    gap: 1;
+    font-size: .9rem;
+    color: #0a2b1e;
+    font-weight: 500;
+}
+
+.lesson i, .students i, .rating i{
+    font-weight: 400;
+    padding: 10px;
+}
+
+.enroll a{
+    display: flex;
+    align-items: center;
+    gap: 1;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: .9rem;
+    color: #17bf9e;
+}
+
+
+/* .single_course_item:hover{
+    /* padding: 15px; */
+    /* border: 2px solid red; */
+    /* border-radius: 10px; */
+    /* width: 101%; */
+/* } */ */
+
+.course_img img{
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.course_title{
+    line-height: 2rem;
+}
+
+.course_top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ .course_top .btn{
+    background-color: dodgerblue;
+    border-radius: 10px;
+}
+
+.course_top .btn:hover{
+    color: dodgerblue;
+    border: 1px solid dodgerblue;
+    background-color: #fff;
+}
+
+.course_top_left h2{
+    font-size: 2.4rem;
+}
+.course_top_left p{
+    font-size: 1.2rem;
+}
+
+p{
+    font-size: 1.2rem;
+}
+
+.main_div i{
+    color: dodgerblue;
+}
+
+

@@ -1,0 +1,21 @@
+
+
+.choose_img img{
+    border-radius: 15px;
+    width: 70%;
+
+    
+}
+
+.choose_content{
+    padding-right: 50px;
+}
+.choose_content h2{
+    font-size: 3rem;
+    /* word-break: break-all; */
+    line-height: 5rem;
+}
+
+.choose_content p{
+    font-size: 1.2rem;
+}
